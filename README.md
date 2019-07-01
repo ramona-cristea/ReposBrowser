@@ -16,4 +16,5 @@ Clone the project by using git clone <repository_url> command or download it and
 * Update variable from gradle.properties: GithubSecretId = "YOUR_CLIENT_SECRET"
 
 YOUR_CLIENT_ID = The client ID you received from GitHub for your GitHub App.
+
 YOUR_CLIENT_SECRET = The client secret you received from GitHub for your GitHub App.
