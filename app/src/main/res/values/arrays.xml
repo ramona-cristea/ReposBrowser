@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>@string/language_none</item>
+        <item>@string/language_javascript</item>
+        <item>@string/language_java</item>
+        <item>@string/language_swift</item>
+        <item>@string/language_html</item>
+        <item>@string/language_python</item>
+        <item>@string/language_ruby</item>
+        <item>@string/language_php</item>
+        <item>@string/language_typescript</item>
+        <item>@string/language_css</item>
+        <item>@string/language_csharp</item>
+        <item>@string/language_go</item>
+    </string-array>
+</resources>

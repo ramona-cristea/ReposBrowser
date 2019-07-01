@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_16dp"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    tools:context=".views.BrowseReposActivity">
+
+    <EditText
+        android:id="@+id/edit_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="@string/hint_search_term"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:importantForAutofill="no"
+        tools:targetApi="o"
+        android:layout_marginBottom="@dimen/padding_8dp"/>
+
+    <TextView
+        android:id="@+id/textview_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_search"
+        android:text="@string/select_language"
+        android:paddingStart="@dimen/padding_2dp"
+        android:paddingEnd="@dimen/padding_2dp"
+        android:layout_marginBottom="@dimen/padding_2dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_languages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_language"
+        android:layout_marginBottom="@dimen/padding_8dp">
+    </Spinner>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_repositories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinner_languages"
+        tools:listitem="@layout/item_repository"/>
+
+    <ProgressBar
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:id="@+id/progress_bar_recipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Repos Browser</string>
+    <string name="hint_search_term">Search for&#8230;</string>
+    <string name="select_language">Filter by language:</string>
+    <string name="language_none">None</string>
+    <string name="language_javascript">JavaScript</string>
+    <string name="language_java">Java</string>
+    <string name="language_html">HTML</string>
+    <string name="language_python">Python</string>
+    <string name="language_ruby">Ruby</string>
+    <string name="language_php">PHP</string>
+    <string name="language_swift">Swift</string>
+    <string name="language_typescript">TypeScript</string>
+    <string name="language_css">CSS</string>
+    <string name="language_csharp">C#</string>
+    <string name="language_go">GO</string>
+    <string name="error_network">Some error occurred. Please make sure you have an internet connection.</string>
+    <string name="search_query_needed">Please enter a search term</string>
+    <string name="sample_repository_name">Timer app</string>
+    <string name="sample_owner_name">Ramona Cristea</string>
+    <string name="sample_stars_value">100</string>
+    <string name="sample_language_value">Java</string>
+    <string name="repo_language">%1$s Language</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login into Github</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

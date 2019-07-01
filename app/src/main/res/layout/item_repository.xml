@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_repository_item"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/padding_8dp">
+
+    <TextView
+        android:id="@+id/text_repository_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/sample_repository_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/padding_8dp"
+        />
+
+    <TextView
+        android:id="@+id/text_owner_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/sample_owner_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        />
+
+    <TextView
+        android:id="@+id/text_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/sample_language_value"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/text_stars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/sample_stars_value"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:drawableStart="@drawable/vector_star"
+        android:gravity="center_vertical"
+        />
+
+</LinearLayout>
