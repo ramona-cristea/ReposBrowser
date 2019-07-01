@@ -14,5 +14,6 @@ Clone the project by using git clone <repository_url> command or download it and
 * Register the app for OAuth on Github (please see https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
 * Update variable from gradle.properties: GithubClientId = "YOUR_CLIENT_ID"
 * Update variable from gradle.properties: GithubSecretId = "YOUR_CLIENT_SECRET"
+
 YOUR_CLIENT_ID = The client ID you received from GitHub for your GitHub App.
 YOUR_CLIENT_SECRET = The client secret you received from GitHub for your GitHub App.
